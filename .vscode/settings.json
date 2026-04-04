@@ -1,0 +1,10 @@
+{
+    "python.defaultInterpreterPath": "./venv/Scripts/python.exe",
+    "python.analysis.extraPaths": [
+        "./backend",
+        "./nlp",
+        "./streaming",
+        "./data-simulator",
+        "./venv/Lib/site-packages"
+    ]
+}

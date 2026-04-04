@@ -1,0 +1,19 @@
+@echo off
+echo Starting CivicPulse AI Platform...
+
+echo Starting Kafka ^& Zookeeper...
+docker-compose up -d
+
+echo Starting Backend API...
+start "Backend API" cmd /k "cd backend && ..\venv\Scripts\python.exe -m uvicorn main:app --reload"
+
+echo Starting Frontend Dashboard...
+start "Frontend Dashboard" cmd /k "cd frontend && npm run dev"
+
+echo Starting Kafka Consumer...
+start "Kafka Consumer" cmd /k "cd streaming && ..\venv\Scripts\python.exe consumer.py"
+
+echo Starting Data Simulator Producer...
+start "Data Simulator" cmd /k "cd data-simulator && ..\venv\Scripts\python.exe producer.py"
+
+echo All services successfully launched!

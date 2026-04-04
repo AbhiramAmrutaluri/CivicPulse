@@ -1,0 +1,32 @@
+[
+    {
+        "complaint_id": "c23de592-1679-4d06-80d3-acc986877ad3",
+        "source": "App",
+        "citizen_name": "Harini Dyal",
+        "language": "TE",
+        "original_text": "మా ఇంట్లో నీరు రావడం లేదు, ఏం చేయాలి?",
+        "translated_text": "There's no water supply in our house, what are we supposed to do?",
+        "ward": "Ward 7 - Banjara Hills",
+        "location": "17.322185571308687, 78.29991723712887",
+        "created_at": "2026-03-25 06:42:32",
+        "category": "water_supply",
+        "urgency": "Medium",
+        "department": "Water Board",
+        "status": "Pending"
+    },
+    {
+        "complaint_id": "cb47d419-93c1-480e-9c84-2a21bea1a374",
+        "source": "Twitter",
+        "citizen_name": "Nidra Andra",
+        "language": "EN",
+        "original_text": "The condition of the roads in our city is very bad!! Can't the municipality do something to improve them?",
+        "translated_text": "The condition of the roads in our city is very bad!! Can't the municipality do something to improve them?",
+        "ward": "Ward 2 - AS Rao Nagar",
+        "location": "17.368365030642458, 78.37160444631452",
+        "created_at": "2026-03-25 05:42:32",
+        "category": "roads",
+        "urgency": "Low",
+        "department": "Public Works Department",
+        "status": "In Progress"
+    }
+]
